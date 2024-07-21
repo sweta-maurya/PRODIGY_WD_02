@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:plum;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: #fff;
+    padding: 25px;
+    width: 450px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+#stopwatchDuration {
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 20px;
+}
+
+.lapsButton{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+.lapsButton button{
+    height: 45px;
+    width: 25%;
+    border-radius: 5px;
+    background-color: rgb(194, 160, 221);
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#laps{
+    height: 200px;
+    padding: 10px;
+    overflow: auto;
+}
+
+#laps li{
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+#stop,#reset{
+    background-color: red;
+}
